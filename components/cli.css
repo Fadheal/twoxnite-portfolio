@@ -1,0 +1,43 @@
+.user-input {
+  position: relative;
+}
+
+.terminal {
+    font-family: monospace;
+    font-size: x-large;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.user-input::after{
+    display: block;
+    content: "";
+    width: 10px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.404);
+    position: absolute;
+    top: 0;
+    right: -10px;
+    animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.dummy-keyboard {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.numberss {
+    font-family: monospace;
+}
+
+.monospace-font {
+  font-family: monospace;
+}
