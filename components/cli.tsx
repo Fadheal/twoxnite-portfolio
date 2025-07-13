@@ -7,8 +7,13 @@ function Cli() {
   const [value, setValue] = useState("");
   const [output, setOutput]: any = useState("");
   const [messages, setMessages] = useState([]);
-  const [quotes, setQuotes] = useState([]);
+  const [quotes, setQuotes] = useState<quotesJsonData[]>([]);
   const terminalEndRef = useRef<HTMLDivElement>(null);
+
+  interface quotesJsonData {
+      quote: string;
+      author: string;
+  }
 
   //quotes api
   useEffect(() => {
