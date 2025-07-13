@@ -3,6 +3,8 @@
 Welcome to my **interactive portfolio** — not your average dev site!  
 It's a terminal-style interface packed with personality, **real-time New York clock**, and **AI-generated quotes** to keep things fresh 🧠✨
 
+![Portfolio Screenshot](./Screenshoot2.png)
+
 ---
 
 ## 🎯 Features
@@ -20,22 +22,21 @@ It's a terminal-style interface packed with personality, **real-time New York cl
 
 ## 🚀 Tech Stack
 
-- **Frontend**: HTML, Tailwind CSS, JavaScript  
-- **Frameworks**: (Optional — if using React, Vue, etc. add here)  
-- **APIs**: Timezone API / Quote Generator (Custom or OpenAI)
+- **Frontend**: NextJS  
+- **Frameworks**: ReactJS, Tailwind  
+- **APIs**: Ninja API quotes API
 
 ---
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./screenshot.png)  
-*(Replace with actual image or demo link)*
+![Portfolio Screenshot](./Screenshoot.png)
 
 ---
 
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/Fadheal/twoxnite-portfolio.git
 cd your-portfolio
-open index.html
+npm run dev
