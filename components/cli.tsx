@@ -109,7 +109,7 @@ function Cli() {
   //html object output
   return (
     <>
-    <div className='terminal h-full overflow-y-scroll'>
+    <div className='terminal h-full overflow-y-scroll' suppressHydrationWarning>
         <div className="terminal-output" id="terminalOutput">
             <div className="terminal-line">
                 <span className="help-msg"

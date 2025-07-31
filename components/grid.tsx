@@ -8,17 +8,16 @@ import Cli from './cli'
 import myEmoji from '@/public/myEmoji.png'
 import Image from 'next/image'
 import Clock from './clock'
-import { Instagram } from 'lucide-react'
 
 function Grids() {
 
   return (
     <ResizablePanelGroup
       direction="horizontal"
-      className="max-w-7xl min-w-[450px]"
+      className="md:max-w-7xl md:min-w-[450px]"
     >
-      <ResizablePanel defaultSize={40} className='p-2 md:visible invisible'>
-        <div className="rounded-lg border h-[650px] p-5">
+      <ResizablePanel defaultSize={40} className='p-2'>
+        <div className="rounded-lg border md:h-[650px] p-5">
           <Cli />
         </div>
       </ResizablePanel>
