@@ -39,4 +39,5 @@ It's a terminal-style interface packed with personality, **real-time New York cl
 ```bash
 git clone https://github.com/Fadheal/twoxnite-portfolio.git
 cd your-portfolio
+npm install
 npm run dev
